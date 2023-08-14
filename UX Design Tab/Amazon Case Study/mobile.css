@@ -207,6 +207,7 @@ html {
     text-align: center;
     justify-content: center;
     align-items:center;
+    width:100%;
 }
 h1 {
     color:white;
@@ -220,20 +221,16 @@ h1 {
 .partAnimation {
     position:absolute;
     transform: translateY(-100%);
-    width:50%;
+    width:100%;
     z-index:1;
 }
 .mockUpTop {
-    z-index:3;
+    z-index:-2;
 }
 
 
 .mockUp img {
-    height:100%;
-    width:auto;
-    bottom:0;
-    transform:translateY(70px);
-    right:0;
+    opacity:0;
 }
 
 
@@ -252,7 +249,7 @@ h2 {
 }
 p {
     color:white;
-    font-size:16px;
+    font-size:14px;
     font-family:'Inter', sans-serif;
     background-color:rgba(0,0,0,0);
     font-weight:200;
@@ -260,7 +257,7 @@ p {
 p span {
     font-weight:400;
     background-color:rgba(0,0,0,0);
-    font-size:18px;
+    font-size:16px;
 }
 .section {
     margin-top:27px;
@@ -349,7 +346,7 @@ h4 {
     text-align: center;
     font-family: 'Inter', sans-serif;
     font-weight:200;
-    font-size:28px;
+    font-size:24px;
     background-color:white;
     border: none;
     border-radius:30px;
@@ -369,7 +366,7 @@ h4 {
     text-decoration:none;
     border: none;
     align-items: center;
-    width: 550px;
+    width: 342px;
     height:44px;
     border-radius:30px;
     justify-content: center;
@@ -387,7 +384,7 @@ h4 {
     border-radius:30px;
     text-decoration:none;
     height:30px;
-    width:200px;
+    width:165px;
     justify-content:center;
     align-items:center;
     text-align:center;
@@ -432,6 +429,8 @@ h4 {
 
 .iconImg {
     margin-top:15px;
+    width:110px;
+    height:100px;
 }
 .research img {
     height: 408px;
