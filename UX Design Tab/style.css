@@ -48,9 +48,11 @@
     justify-content:end;
 }
 .mob-wrapper {
+    visibility:hidden;
     display:none;
 }
 .burger-menu {
+    visibility:hidden;
     display:none;
 }
 
@@ -121,18 +123,22 @@
 
 
 /*Mobile View*/
-@media only screen and (max-width:480px){
+@media screen and (max-width:480px){
 
     .nav {
-    display:none;
+        visibility:hidden;
+        display:none;
     }
     .desktopNav {
-    display:none;
+        visibility:hidden;
+        display:none;
     }
     .activePagebar {
+        visibility:hidden;
         display:none;
     }
     .logoNav {
+        visibility:hidden;
         display:none;
     }
 
@@ -140,6 +146,7 @@
         display:block;
     }
     .mob-nav {
+        visibility:hidden;
         display:none;
     }
     .burger-menu {
