@@ -1,13 +1,7 @@
 
 
 .nav {
-    color: white;
-    background-color:#0d0d0d;
-    display: flex;
-    justify-content:flex-end;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    list-style-type: none;
+    display: none;
 }
 .liNavTop {
     display: inline-block;
@@ -30,25 +24,21 @@
     text-decoration:none;
 }
 .activePagebar {
-    background-color: white;
-    position: relative;
-    top: -40px;
-    opacity: 1;
-    height: 8px;
-    width: 115px;
-    margin-top: 0px;
-    align-items: center;
-    z-index: 2;
+    display:none;
 }
 
 .logoNav {
-    width:75px;
-    height:auto;
-    background-color:#0d0d0d;
-    justify-content:end;
-    opacity:0;
-    z-index:-2;
+    display:none;
 }
+
+
+.mob-wrapper {
+    display:block;
+}
+.mob-nav {
+    display:none;
+}
+
 
 *,
 *::before,

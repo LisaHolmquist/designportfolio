@@ -47,6 +47,12 @@
     background-color:#0d0d0d;
     justify-content:end;
 }
+.mob-wrapper {
+    display:none;
+}
+.burger-menu {
+    display:none;
+}
 
 *,
 *::before,
