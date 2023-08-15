@@ -47,12 +47,8 @@
     background-color:#0d0d0d;
     justify-content:end;
 }
-.mob-wrapper {
-    visibility:hidden;
-    display:none;
-}
-.burger-menu {
-    visibility:hidden;
+
+.mobileNav {
     display:none;
 }
 
@@ -123,34 +119,26 @@
 
 
 /*Mobile View*/
-@media screen and (max-width:480px){
+@media only screen and (max-width:480px){
 
     .nav {
-        visibility:hidden;
         display:none;
     }
     .desktopNav {
-        visibility:hidden;
         display:none;
     }
     .activePagebar {
-        visibility:hidden;
         display:none;
     }
     .logoNav {
-        visibility:hidden;
         display:none;
     }
 
-    .mob-wrapper {
+    .mobileNav {
         display:block;
     }
-    .mob-nav {
-        visibility:hidden;
-        display:none;
-    }
+
     .burger-menu {
-        display:block;
         width:48px;
         height:48px;
     }
