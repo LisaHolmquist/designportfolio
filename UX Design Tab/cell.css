@@ -3,6 +3,9 @@
 .nav {
     display: none;
 }
+.desktopNav {
+    display:none;
+}
 .liNavTop {
     display: inline-block;
     width: 120px;
