@@ -46,6 +46,8 @@
     height:auto;
     background-color:#0d0d0d;
     justify-content:end;
+    opacity:0;
+    z-index:-2;
 }
 
 *,
