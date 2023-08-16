@@ -124,6 +124,7 @@ html {
 }
 #backToTop span {
     color:white;
+    background-color:#E98013;
     font-size:3rem;
 }
 #backToTop:hover {
