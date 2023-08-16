@@ -268,7 +268,7 @@ h1 {
     color:white;
     background-color: rgba(0,0,0,0);
     font-family: 'Julius Sans One', sans-serif;
-    font-size: 50px !important;
+    font-size: clamp(36px, 5vw,48px) !important;
     z-index:3;
 }
 
