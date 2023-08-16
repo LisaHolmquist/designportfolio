@@ -1,8 +1,20 @@
 
-let navigationBar = document.querySelector('burger-menu');
-let navigationToggle = document.querySelector('mob-nav');
+const hamburger = document.querySelector(".burger-menu");
+const navbar = document.querySelector(".mob-nav");
 
-navigationToggle.addEventListener('click', function(event)
-{
-    navigationBar.classList.toggle('active')
+hamburger.addEventListener("click", ()=> {
+    navbar.classList.toggle("open");
+});
+
+const hamburgerBtn = document.querySelector('.burger-menu');
+let hamburgerOpen = false;
+
+hamburgerBtn.addEventListener('click', () => {
+    if (!hamburgerOpen) {
+        hamburgerBtn.classList.add('open');
+        hamburgerOpen = true;
+    } else {
+        hamburgerBtn.classList.remove('open');
+        hamburgerOpen = false;
+    }
 });
