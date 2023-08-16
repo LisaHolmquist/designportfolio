@@ -49,9 +49,7 @@
     justify-content:end;
 }
 
-.mobileNav {
-    display:none;
-}
+
 
 *,
 *::before,
@@ -135,7 +133,10 @@
         display:none;
     }
 
-    .mobileNav {
+    .mob-wrapper {
+        display:block;
+    }
+    .mob-nav {
         display:flex;
         background-color:#0d0d0d;
     }
