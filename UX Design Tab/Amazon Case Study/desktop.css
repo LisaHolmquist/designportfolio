@@ -53,6 +53,10 @@ html {
 }
 
 
+.mob-wrapper {
+    display:none;
+}
+
 
 #backToTop {
     position:fixed;
