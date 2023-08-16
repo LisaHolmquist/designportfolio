@@ -118,7 +118,7 @@ html {
     justify-content:center;
     background-color: #E98013;
     border-radius:50%;
-    padding:1rem;
+    padding:0.5rem;
     text-decoration:none;
     opacity:0;
 }
