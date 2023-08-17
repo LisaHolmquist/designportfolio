@@ -268,6 +268,7 @@ html {
 h1 {
     color:white;
     background-color: rgba(0,0,0,0);
+    background:transparent;
     font-family: 'Julius Sans One', sans-serif;
     font-size: clamp(36px, 5vw,48px) !important;
     z-index:3;
@@ -306,6 +307,7 @@ h2 {
     padding-top: 20px;
     font-family: 'Julius Sans One', sans-serif;
     background-color: rgba(0,0,0,0);
+    background:transparent;
     font-weight:400;
 }
 p {
@@ -313,11 +315,13 @@ p {
     font-size:14px;
     font-family:'Inter', sans-serif;
     background-color:rgba(0,0,0,0);
+    background:transparent;
     font-weight:200;
 }
 p span {
     font-weight:400;
     background-color:rgba(0,0,0,0);
+    background:transparent;
     font-size:16px;
 }
 .section {
