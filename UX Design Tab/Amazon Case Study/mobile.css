@@ -112,7 +112,7 @@ html {
 #backToTop {
     position:fixed;
     bottom:2rem;
-    right:2rem;
+    right:1rem;
     display:inline-flex;
     align-items:center;
     justify-content:center;
@@ -124,11 +124,11 @@ html {
 }
 #backToTop span {
     color:white;
-    background-color:#E98013;
+    background-color:rgba(255,255,255,0);
     font-size:3rem;
 }
 #backToTop:hover {
-    background-color: #D27409;
+    background-color: #E98013;
 }
 #backToTop:hover span {
     animation: bounce 1s linear;
@@ -267,7 +267,7 @@ html {
 }
 h1 {
     color:white;
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(255,255,255,0);
     font-family: 'Julius Sans One', sans-serif;
     font-size: clamp(36px, 5vw,48px) !important;
     z-index:3;
@@ -348,7 +348,7 @@ p span {
     color: #E98013;
     font-size:20px;
     font-family: 'Julius Sans One', sans-serif;
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(255,255,255,0);
     margin-top:15px;
     margin-bottom:15px;
     font-weight:200;
@@ -407,7 +407,7 @@ h4 {
     text-align: center;
     font-family: 'Inter', sans-serif;
     font-weight:200;
-    font-size:20px;
+    font-size:18px;
     background-color:white;
     border: none;
     border-radius:30px;
