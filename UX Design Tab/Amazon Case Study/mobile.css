@@ -268,7 +268,6 @@ html {
 h1 {
     color:white;
     background-color: rgba(0,0,0,0);
-    background:transparent;
     font-family: 'Julius Sans One', sans-serif;
     font-size: clamp(36px, 5vw,48px) !important;
     z-index:3;
@@ -306,19 +305,19 @@ h2 {
     font-size:36px;
     padding-top: 20px;
     font-family: 'Julius Sans One', sans-serif;
-    background-color: #4C4C4C;
+    background-color: rgba(255,255,255,0);
     font-weight:400;
 }
 p {
     color:white;
     font-size:14px;
     font-family:'Inter', sans-serif;
-    background-color:#4C4C4C;
+    background-color:rgba(255,255,255,0);
     font-weight:200;
 }
 p span {
     font-weight:400;
-    background-color:#4C4C4C;
+    background-color:rgba(255,255,255,0);
     font-size:16px;
 }
 .section {
@@ -330,7 +329,7 @@ p span {
     margin-left: 10%;
     margin-right:10%;
     font-family: 'Inter', sans-serif;
-    background-color:rgba(0,0,0,0);
+    background-color:rgba(255,255,255,0);
     font-weight:200;
     text-align: center;
     padding-bottom:48px;
@@ -349,7 +348,7 @@ p span {
     color: #E98013;
     font-size:20px;
     font-family: 'Julius Sans One', sans-serif;
-    background-color: #4C4C4C);
+    background-color: rgba(0,0,0,0);
     margin-top:15px;
     margin-bottom:15px;
     font-weight:200;
@@ -408,12 +407,12 @@ h4 {
     text-align: center;
     font-family: 'Inter', sans-serif;
     font-weight:200;
-    font-size:24px;
+    font-size:20px;
     background-color:white;
     border: none;
     border-radius:30px;
     text-decoration: none;
-    width:550px;
+    width:283px;
     height:44px;
 }
 .protoButton a {
