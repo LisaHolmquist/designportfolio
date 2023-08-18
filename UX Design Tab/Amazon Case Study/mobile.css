@@ -196,6 +196,8 @@ html {
     background-color:#4C4C4C;
 }
 
+
+
 .container {
     width:70% !important;
 }
@@ -245,21 +247,21 @@ h1 {
 h2 {
     color: #E98013;
     font-size:36px;
-    padding-top: 20px;
+    padding-top: 18px;
     font-family: 'Julius Sans One', sans-serif;
-    background-color: rgba(255,255,255,0);
+    background-color: rgba(0,0,0,0);
     font-weight:400;
 }
 p {
     color:white;
-    font-size:14px;
+    font-size:clamp(12px, 5vw, 14px) !important;
     font-family:'Inter', sans-serif;
-    background-color:rgba(255,255,255,0);
+    background-color:rgba(0,0,0,0);
     font-weight:200;
 }
 p span {
     font-weight:400;
-    background-color:rgba(255,255,255,0);
+    background-color:rgba(0,0,0,0);
     font-size:16px;
 }
 .section {
@@ -271,7 +273,7 @@ p span {
     margin-left: 10%;
     margin-right:10%;
     font-family: 'Inter', sans-serif;
-    background-color:rgba(255,255,255,0);
+    background-color:rgba(0,0,0,0);
     font-weight:200;
     text-align: center;
     padding-bottom:48px;
@@ -284,13 +286,16 @@ p span {
     margin-right:10%;
     text-align:center;
 }
+.body {
+    background-color:rgba(0,0,0,0);
+}
 
 
 .sectionTitle {
     color: #E98013;
     font-size:20px;
     font-family: 'Julius Sans One', sans-serif;
-    background-color: rgba(255,255,255,0);
+    background-color: rgba(0,0,0,0);
     margin-top:15px;
     margin-bottom:15px;
     font-weight:200;
@@ -300,22 +305,25 @@ p span {
 
 h3 {
     color:#E98013;
+    background-color:rgba(0,0,0,0);
     padding-top: 82px;
     padding-bottom: 69px;
-    font-size:36px;
+    font-size:clamp(24px, 5vw, 32px) !important;
     text-align: center;
     font-family: 'Julius Sans One', sans-serif;
 }
 h5 {
     color:#E98013;
+    background-color:rgba(0,0,0,0);
     padding-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
     font-size:36px;
     text-align: center;
     font-family: 'Julius Sans One', sans-serif;
 }
 h4 {
     color: white;
+    background-color:rgba(0,0,0,0);
     font-size:32px;
     font-family: 'Julius Sans One', sans-serif;
 }
@@ -349,13 +357,13 @@ h4 {
     text-align: center;
     font-family: 'Inter', sans-serif;
     font-weight:200;
-    font-size:18px;
+    font-size:clamp(12px, 5vw, 18px) !important;
     background-color:white;
     border: none;
     border-radius:30px;
     text-decoration: none;
-    width:283px;
-    height:44px;
+    width:100% !important;
+    height:auto;
 }
 .protoButton a {
     color: black;
@@ -543,6 +551,8 @@ h4 {
 }
 
 
+
+
 @media only screen and (max-width:889px) {
     h1 {
         font-size:48px;
@@ -607,5 +617,10 @@ h4 {
     }
 } 
 
+@media only screen and (max-width:768px) {
+    * {
+        background-color:rgba(0,0,0,0);
+    }
+}
 
 
