@@ -118,6 +118,7 @@
     flex-direction:column;
     align-content:center;
     width:398px;
+    display:none;
 }
 .thumbTitles {
     color:black;
@@ -125,6 +126,9 @@
     text-align:center;
     font-weight:200;
     font-family: 'Julius Sans One', sans-serif;
+}
+.proj1 {
+    display:none;
 }
 
 .contactInfo {
