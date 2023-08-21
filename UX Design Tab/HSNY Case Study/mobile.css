@@ -112,7 +112,7 @@ html {
 #backToTop {
     position:fixed;
     bottom:2rem;
-    right:2rem;
+    right:1rem;
     display:inline-flex;
     align-items:center;
     justify-content:center;
@@ -124,71 +124,13 @@ html {
 }
 #backToTop span {
     color:white;
-    background-color:#E98013;
+    background-color:rgba(255,255,255,0);
     font-size:3rem;
 }
 #backToTop:hover {
-    background-color: #D27409;
+    background-color: #E98013;
 }
-#backToTop:hover span {
-    animation: bounce 1s linear;
-}
-@-webkit-keyframes bounce {
-    20%,50%,80%, to{
-        transform: translateY(0);
-    }
-    40%{
-        transform: translateY(-12px);
-    }
-    70%{
-        transform: translateY(-7px);
-    }
-    90%{
-        transform: translateY(-2px);
-    }
-}
-@-moz-keyframes bounce {
-    20%,50%,80%, to{
-        transform: translateY(0);
-    }
-    40%{
-        transform: translateY(-12px);
-    }
-    70%{
-        transform: translateY(-7px);
-    }
-    90%{
-        transform: translateY(-2px);
-    }
-}
-@-o-keyframes bounce {
-    20%,50%,80%, to{
-        transform: translateY(0);
-    }
-    40%{
-        transform: translateY(-12px);
-    }
-    70%{
-        transform: translateY(-7px);
-    }
-    90%{
-        transform: translateY(-2px);
-    }
-}
-@keyframes bounce {
-    20%,50%,80%, to{
-        transform: translateY(0);
-    }
-    40%{
-        transform: translateY(-12px);
-    }
-    70%{
-        transform: translateY(-7px);
-    }
-    90%{
-        transform: translateY(-2px);
-    }
-}
+
 #backToTop.activeTop {
     -webkit-animation: activeTop 1s both;
     -moz-animation: activeTop 1s both;
@@ -254,6 +196,8 @@ html {
     background-color:#4C4C4C;
 }
 
+
+
 .container {
     width:70% !important;
 }
@@ -267,7 +211,7 @@ html {
 }
 h1 {
     color:white;
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(255,255,255,0);
     font-family: 'Julius Sans One', sans-serif;
     font-size: clamp(36px, 5vw,48px) !important;
     z-index:3;
@@ -302,15 +246,15 @@ h1 {
 
 h2 {
     color: #E98013;
-    font-size:36px;
-    padding-top: 20px;
+    font-size:clamp(24px, 5vw, 32px) !important;
+    padding-top: 18px;
     font-family: 'Julius Sans One', sans-serif;
     background-color: rgba(0,0,0,0);
     font-weight:400;
 }
 p {
     color:white;
-    font-size:14px;
+    font-size:clamp(12px, 5vw, 14px) !important;
     font-family:'Inter', sans-serif;
     background-color:rgba(0,0,0,0);
     font-weight:200;
@@ -342,6 +286,9 @@ p span {
     margin-right:10%;
     text-align:center;
 }
+.body {
+    background-color:rgba(0,0,0,0);
+}
 
 
 .sectionTitle {
@@ -358,22 +305,25 @@ p span {
 
 h3 {
     color:#E98013;
+    background-color:rgba(0,0,0,0);
     padding-top: 82px;
     padding-bottom: 69px;
-    font-size:36px;
+    font-size:clamp(24px, 5vw, 32px) !important;
     text-align: center;
     font-family: 'Julius Sans One', sans-serif;
 }
 h5 {
     color:#E98013;
+    background-color:rgba(0,0,0,0);
     padding-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
     font-size:36px;
     text-align: center;
     font-family: 'Julius Sans One', sans-serif;
 }
 h4 {
     color: white;
+    background-color:rgba(0,0,0,0);
     font-size:32px;
     font-family: 'Julius Sans One', sans-serif;
 }
@@ -407,13 +357,13 @@ h4 {
     text-align: center;
     font-family: 'Inter', sans-serif;
     font-weight:200;
-    font-size:24px;
+    font-size:clamp(12px, 5vw, 18px) !important;
     background-color:white;
     border: none;
     border-radius:30px;
     text-decoration: none;
-    width:550px;
-    height:44px;
+    width:100% !important;
+    height:auto;
 }
 .protoButton a {
     color: black;
@@ -427,8 +377,8 @@ h4 {
     text-decoration:none;
     border: none;
     align-items: center;
-    width: 342px;
-    height:44px;
+    width:100% !important;
+    height:auto;
     border-radius:30px;
     justify-content: center;
     align-items: center;
@@ -439,13 +389,13 @@ h4 {
     margin:auto;
     font-family: 'Inter', sans-serif;
     font-weight:200px;
-    font-size:18px;
+    font-size:clamp(14px, 5vw, 16px) !important;
     background-color:white;
     border:none;
     border-radius:30px;
     text-decoration:none;
     height:30px;
-    width:165px;
+    width:150px;
     justify-content:center;
     align-items:center;
     text-align:center;
@@ -462,7 +412,7 @@ h4 {
     text-decoration:none;
     border: none;
     align-items: center;
-    width: 200px;
+    width: auto;
     height:30px;
     border-radius:30px;
     justify-content: center;
@@ -494,7 +444,7 @@ h4 {
     height:100px;
 }
 .research img {
-    height: 408px;
+    height: 150px;
     width: auto;
     display: block;
     margin: auto;
@@ -518,13 +468,13 @@ h4 {
 }
 
 .prototypes img {
-    height:573px;
+    height:250px;
     width: auto;
 }
 .imgTitle {
     color:#E98013;
     font-family: 'Julius Sans One', sans-serif;
-    font-size: 32px;
+    font-size: clamp(18px, 5vw, 22px);
     text-align: center;
     display: block;
     margin:auto;
@@ -601,6 +551,93 @@ h4 {
 }
 
 
+.footBlock {
+    height:140px !important;
+}
+.git {
+    background-image:url('Github\ Icon.png');
+    margin-top:20px;
+    margin-left:20px;
+    margin-right:20px;
+    width:48px;
+    height:48px;
+}
+.git:hover {
+    background-image:url('Github\ Icon\ -\ Hover.png');
+}
+.linked {
+    background-image:url('LinkedIn\ Icon.png');
+    margin-top:20px;
+    margin-left:20px;
+    margin-right:20px;
+    width:48px;
+    height:48px;
+}
+.linked:hover {
+    background-image:url('LinkedIn\ Icon\ -\ Hover.png');
+}
+.insta {
+    background-image:url('Instagram\ Icon.png');
+    margin-top:20px;
+    margin-left:20px;
+    margin-right:20px;
+    width:48px;
+    height:48px;
+}
+.insta:hover {
+    background-image: url('Instagram\ Icon\ -\ Hover.png');
+}
+.email {
+    background-image: url('Email\ Icon.png');
+    margin-top:20px;
+    margin-left:20px;
+    margin-right:20px;
+    width:48px;
+    height:48px;
+}
+.email:hover {
+    background-image: url('Email\ Icon\ -\ Hover.png');
+}
+
+
+.liBot {
+    list-style:none;
+    text-decoration:none;
+    font-family: 'Inter', sans-serif;
+    font-weight:200;
+    font-size:14px;
+    margin-top:15px;
+}
+.liBot a {
+    color:white;
+    text-decoration:none;
+    list-style:none;
+}
+.liBot a:hover {
+    color:#E98013;
+    text-decoration:none;
+    list-style:none;
+}
+.liBotbot {
+    list-style:none;
+    text-decoration:none;
+    font-family: 'Inter', sans-serif;
+    font-weight:200;
+    font-size:14px;
+}
+.liBotbot a {
+    color:white;
+    text-decoration:none;
+    list-style:none;
+}
+.liBotbot a:hover {
+    color:#E98013;
+    text-decoration:none;
+    list-style:none;
+}
+
+
+
 @media only screen and (max-width:889px) {
     h1 {
         font-size:48px;
@@ -620,7 +657,7 @@ h4 {
         list-style-type: none;
     }
     .protoButton {
-        width:300px;
+        width:max(300px, 90%);
         height:44px;
         font-size:26px;
     }
@@ -665,5 +702,10 @@ h4 {
     }
 } 
 
+@media only screen and (max-width:768px) {
+    * {
+        background-color:rgba(0,0,0,0);
+    }
+}
 
 
