@@ -630,6 +630,11 @@ h4 {
 }
 
 
+.mobileFoot {
+    display:none;
+}
+
+
 @media only screen and (max-width:889px) {
     h1 {
         font-size:48px;

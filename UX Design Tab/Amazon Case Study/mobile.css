@@ -554,11 +554,14 @@ h4 {
 .footBlock {
     height:140px !important;
 }
+.desktopFoot {
+    display:none;
+}
 .git {
     background-image:url('Github\ Icon.png');
     margin-top:20px;
-    margin-left:20px;
-    margin-right:20px;
+    margin-left:10px;
+    margin-right:10px;
     width:48px;
     height:48px;
 }
@@ -568,8 +571,8 @@ h4 {
 .linked {
     background-image:url('LinkedIn\ Icon.png');
     margin-top:20px;
-    margin-left:20px;
-    margin-right:20px;
+    margin-left:10px;
+    margin-right:10px;
     width:48px;
     height:48px;
 }
@@ -579,24 +582,13 @@ h4 {
 .insta {
     background-image:url('Instagram\ Icon.png');
     margin-top:20px;
-    margin-left:20px;
-    margin-right:20px;
+    margin-left:10px;
+    margin-right:10px;
     width:48px;
     height:48px;
 }
 .insta:hover {
     background-image: url('Instagram\ Icon\ -\ Hover.png');
-}
-.email {
-    background-image: url('Email\ Icon.png');
-    margin-top:20px;
-    margin-left:20px;
-    margin-right:20px;
-    width:48px;
-    height:48px;
-}
-.email:hover {
-    background-image: url('Email\ Icon\ -\ Hover.png');
 }
 
 
@@ -605,8 +597,8 @@ h4 {
     text-decoration:none;
     font-family: 'Inter', sans-serif;
     font-weight:200;
-    font-size:14px;
-    margin-top:15px;
+    font-size:clamp(12px, 5vw, 14px);
+    margin-top:10px;
 }
 .liBot a {
     color:white;
@@ -623,7 +615,7 @@ h4 {
     text-decoration:none;
     font-family: 'Inter', sans-serif;
     font-weight:200;
-    font-size:14px;
+    font-size:clamp(12px, 5vw, 14px);
 }
 .liBotbot a {
     color:white;
@@ -636,6 +628,10 @@ h4 {
     list-style:none;
 }
 
+
+.mobileFoot {
+    display:block;
+}
 
 
 @media only screen and (max-width:889px) {
