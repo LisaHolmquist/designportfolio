@@ -213,7 +213,8 @@ h1 {
     color:white;
     background-color: rgba(255,255,255,0);
     font-family: 'Julius Sans One', sans-serif;
-    font-size: clamp(36px, 5vw,48px) !important;
+    font-size: clamp(28px, 5vw, 32px) !important;
+    margin-left:20px;
     z-index:3;
 }
 
@@ -262,7 +263,7 @@ p {
 p span {
     font-weight:400;
     background-color:rgba(0,0,0,0);
-    font-size:16px;
+    font-size:clamp(14px, 5vw, 16px);
 }
 .section {
     margin-top:27px;
@@ -317,14 +318,14 @@ h5 {
     background-color:rgba(0,0,0,0);
     padding-top: 50px;
     margin-bottom: 18px;
-    font-size:36px;
+    font-size:clamp(16px, 5vw, 20px) !important;
     text-align: center;
     font-family: 'Julius Sans One', sans-serif;
 }
 h4 {
     color: white;
     background-color:rgba(0,0,0,0);
-    font-size:32px;
+    font-size:clamp(16px, 5vw, 20px) !important;
     font-family: 'Julius Sans One', sans-serif;
 }
 .text-column {
@@ -554,11 +555,14 @@ h4 {
 .footBlock {
     height:140px !important;
 }
+.desktopFoot {
+    display:none;
+}
 .git {
     background-image:url('Github\ Icon.png');
     margin-top:20px;
-    margin-left:20px;
-    margin-right:20px;
+    margin-left:10px;
+    margin-right:10px;
     width:48px;
     height:48px;
 }
@@ -568,8 +572,8 @@ h4 {
 .linked {
     background-image:url('LinkedIn\ Icon.png');
     margin-top:20px;
-    margin-left:20px;
-    margin-right:20px;
+    margin-left:10px;
+    margin-right:10px;
     width:48px;
     height:48px;
 }
@@ -579,24 +583,13 @@ h4 {
 .insta {
     background-image:url('Instagram\ Icon.png');
     margin-top:20px;
-    margin-left:20px;
-    margin-right:20px;
+    margin-left:10px;
+    margin-right:10px;
     width:48px;
     height:48px;
 }
 .insta:hover {
     background-image: url('Instagram\ Icon\ -\ Hover.png');
-}
-.email {
-    background-image: url('Email\ Icon.png');
-    margin-top:20px;
-    margin-left:20px;
-    margin-right:20px;
-    width:48px;
-    height:48px;
-}
-.email:hover {
-    background-image: url('Email\ Icon\ -\ Hover.png');
 }
 
 
@@ -605,7 +598,7 @@ h4 {
     text-decoration:none;
     font-family: 'Inter', sans-serif;
     font-weight:200;
-    font-size:14px;
+    font-size:clamp(12px, 5vw, 14px);
     margin-top:15px;
 }
 .liBot a {
@@ -623,7 +616,7 @@ h4 {
     text-decoration:none;
     font-family: 'Inter', sans-serif;
     font-weight:200;
-    font-size:14px;
+    font-size:clamp(12px, 5vw, 14px);
 }
 .liBotbot a {
     color:white;
@@ -637,17 +630,12 @@ h4 {
 }
 
 
+.mobileFoot {
+    display:block;
+}
+
 
 @media only screen and (max-width:889px) {
-    h1 {
-        font-size:48px;
-    }
-    p {
-        font-size:16px;
-    }
-    h4 {
-        font-size:28px;
-    }
     .nav {
         color: black;
         display: flex;
@@ -655,23 +643,6 @@ h4 {
         margin-block-start: 0em;
         margin-block-end: 0em;
         list-style-type: none;
-    }
-    .protoButton {
-        width:max(300px, 90%);
-        height:44px;
-        font-size:26px;
-    }
-    .protoButton a:hover {
-        width: 300px;
-        height:44px;  
-    }
-    #footLISA {
-        margin-left:0px;
-        font-size: 35px;
-    }
-    #footHOLMQUIST {
-        margin-left:0px;
-        margin-top:5px;
     }
     .liNavFoot {
         display:flex;
@@ -687,25 +658,10 @@ h4 {
         width:290px;
         height:auto;
     }
-    h2 {
-        text-align:center;
-        margin-left:0;
-    }
-    #leftLine {
-        height: 50px;
-    }
-    #rightLine {
-        height: 50px;
-    }
-    .pageHeading {
-        margin-top:60px;
-    }
-} 
-
+}
 @media only screen and (max-width:768px) {
     * {
         background-color:rgba(0,0,0,0);
     }
 }
-
 

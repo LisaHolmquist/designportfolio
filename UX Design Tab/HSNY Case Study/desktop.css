@@ -630,6 +630,10 @@ h4 {
     list-style:none;
 }
 
+.mobileFoot {
+    display:none;
+}
+
 
 @media only screen and (max-width:889px) {
     h1 {
