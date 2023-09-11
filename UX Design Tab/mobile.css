@@ -170,3 +170,86 @@
     display:block;
 }
 
+
+.footBlock {
+    height:140px !important;
+}
+.desktopFoot {
+    display:none;
+}
+.git {
+    background-image:url('Github\ Icon.png');
+    margin-top:20px;
+    margin-left:10px;
+    margin-right:10px;
+    width:48px;
+    height:48px;
+}
+.git:hover {
+    background-image:url('Github\ Icon\ -\ Hover.png');
+}
+.linked {
+    background-image:url('LinkedIn\ Icon.png');
+    margin-top:20px;
+    margin-left:10px;
+    margin-right:10px;
+    width:48px;
+    height:48px;
+}
+.linked:hover {
+    background-image:url('LinkedIn\ Icon\ -\ Hover.png');
+}
+.insta {
+    background-image:url('Instagram\ Icon.png');
+    margin-top:20px;
+    margin-left:10px;
+    margin-right:10px;
+    width:48px;
+    height:48px;
+}
+.insta:hover {
+    background-image: url('Instagram\ Icon\ -\ Hover.png');
+}
+
+
+.liBot {
+    list-style:none;
+    text-decoration:none;
+    font-family: 'Inter', sans-serif;
+    font-weight:200;
+    font-size:clamp(12px, 5vw, 14px);
+    margin-top:10px;
+}
+.liBot a {
+    color:white;
+    text-decoration:none;
+    list-style:none;
+}
+.liBot a:hover {
+    color:#E98013;
+    text-decoration:none;
+    list-style:none;
+}
+.liBotbot {
+    list-style:none;
+    text-decoration:none;
+    font-family: 'Inter', sans-serif;
+    font-weight:200;
+    font-size:clamp(12px, 5vw, 14px);
+}
+.liBotbot a {
+    color:white;
+    text-decoration:none;
+    list-style:none;
+}
+.liBotbot a:hover {
+    color:#E98013;
+    text-decoration:none;
+    list-style:none;
+}
+
+
+.mobileFoot {
+    display:block;
+}
+
