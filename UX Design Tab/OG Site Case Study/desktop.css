@@ -244,7 +244,7 @@ h1 {
 
 
 .mockUp img {
-    height:100%;
+    height:370px;
     width:auto;
     bottom:0;
     transform:translateY(70px);
@@ -459,6 +459,41 @@ h4 {
 .mobileimg img {
     height:300px;
     width:auto;
+}
+
+.styleGuideImg {
+    width:780px;
+    height:auto;
+    margin-top:20%;
+}
+.moodboardImg {
+    width:auto;
+    height:750px;
+}
+.styleGuideImg img {
+    width:780px;
+    height:auto;
+}
+.moodboardImg img {
+    width:auto;
+    height:750px;
+}
+.skillsImg img {
+    margin-top:6%;
+}
+.colImg1 {
+    width:615px;
+    height:auto;
+}
+.colImg1 img {
+    margin-left:15%;
+}
+.colImg2 {
+    width:720px;
+    height:auto;
+}
+.textColumn {
+    margin-top:12%;
 }
 
 .features img {

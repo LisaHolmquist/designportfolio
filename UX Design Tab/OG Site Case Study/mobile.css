@@ -457,6 +457,26 @@ h4 {
     width:auto;
 }
 
+.styleGuideImg {
+    width:auto;
+    height:auto;
+}
+.moodboardImg {
+    width:auto;
+    height:auto;
+}
+.styleGuideImg img {
+    width:auto;
+    height:auto;
+}
+.moodboardImg img {
+    width:auto;
+    height:auto;
+}
+.skillsImg img {
+    margin-top:6%;
+}
+
 .features img {
     width: 655px;
     height: auto;
