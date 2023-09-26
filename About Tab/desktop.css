@@ -1,8 +1,39 @@
 
 * {background-color: #0d0d0d;}
+body {
+    background-color: #0d0d0d !important;
+}
 
 html {
     scroll-behavior: smooth;
+}
+
+
+.heroAnim {
+    width:100vw;
+    height:auto;
+}
+.heroAnim img {
+    width:100vw;
+    height:auto;
+    margin-top:75px;
+}
+
+.profileImg {
+    border-radius:50%;
+    width:clamp(230px, 30vw, 400px);
+    height:clamp(230px, 30vw, 400px);
+    transform: translateY(-40%);
+    overflow:hidden;
+    z-index:99;
+}
+.profileImg img {
+    border-radius:50%;
+    width:clamp(230px, 30vw, 400px);
+    height:clamp(230px, 30vw, 400px);
+    transform: translateY(-40%);
+    overflow:hidden;
+    z-index:99;
 }
 
 
@@ -277,6 +308,11 @@ p span {
     background-color:rgba(0,0,0,0);
     font-size:18px;
 }
+
+.aboutPar {
+    transform:translateY(-20%);
+}
+
 .section {
     margin-top:27px;
 }
