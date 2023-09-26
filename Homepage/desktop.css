@@ -51,10 +51,10 @@
     flex:1;
 }
 .logoImage {
-    width: 55.3125rem;
-    height:44rem;
+    width: 885px;
+    height:auto;
     align-content:center;
-    margin-left:5%;
+    margin-left:2%;
 }
 
 .mob-wrapper {
@@ -65,19 +65,42 @@
     flex:2;
     display:flex;
     flex-direction:column;
-    width:398px;
-    display:none;
+    justify-content:space-evenly;
+    text-align:center;
+    margin-top:30px;
+    margin-bottom:60px;
 }
 .thumbTitles {
-    color:black;
+    color:white;
     background-color:rgba(0,0,0,0);
     text-align:center;
+    font-size:28px;
     font-weight:200;
     font-family: 'Julius Sans One', sans-serif;
+    text-decoration:none;
 }
-.proj1 {
-    display:none;
+.thumbTitles a{
+    color:white;
+    background-color:rgba(0,0,0,0);
+    text-align:center;
+    font-size:28px;
+    font-weight:200;
+    font-family: 'Julius Sans One', sans-serif;
+    text-decoration:none;
 }
+.thumbTitles a:hover {
+    color:#EB8613;
+    background-color:rgba(0,0,0,0);
+    text-align:center;
+    font-size:28px;
+    font-weight:200;
+    font-family: 'Julius Sans One', sans-serif;
+    text-decoration:none;
+}
+.thumbTitles span {
+    font-size:20px;
+}
+
 
 .contactInfo {
     color:white;
