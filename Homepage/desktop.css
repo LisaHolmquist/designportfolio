@@ -50,8 +50,8 @@
 .logo {
     flex:1;
 }
-.logoImage {
-    width: 885px;
+.logoImage img{
+    width: clamp(750px, 60vw, 875px);
     height:auto;
     align-content:center;
     margin-left:2%;
@@ -61,6 +61,8 @@
     display:none;
 }
 
+
+
 .projThumbnails {
     flex:2;
     display:flex;
@@ -69,12 +71,13 @@
     text-align:center;
     margin-top:30px;
     margin-bottom:60px;
+    margin-left:10%;
 }
 .thumbTitles {
     color:white;
     background-color:rgba(0,0,0,0);
     text-align:center;
-    font-size:28px;
+    font-size:clamp(20px, 2vw, 28px);
     font-weight:200;
     font-family: 'Julius Sans One', sans-serif;
     text-decoration:none;
@@ -83,7 +86,7 @@
     color:white;
     background-color:rgba(0,0,0,0);
     text-align:center;
-    font-size:28px;
+    font-size:clamp(20px, 2vw, 28px);
     font-weight:200;
     font-family: 'Julius Sans One', sans-serif;
     text-decoration:none;
@@ -92,14 +95,87 @@
     color:#EB8613;
     background-color:rgba(0,0,0,0);
     text-align:center;
-    font-size:28px;
+    font-size:clamp(20px, 2vw, 28px);
     font-weight:200;
     font-family: 'Julius Sans One', sans-serif;
     text-decoration:none;
 }
 .thumbTitles span {
-    font-size:20px;
+    font-size:clamp(16px, 2vw, 20px);
 }
+
+.proj1{
+    -webkit-animation: fadeInRight 1.2s both;
+    -webkit-animation-delay: 0.5s;
+    -moz-animation: fadeInRight 1.2s both;
+    -moz-animation-delay: 0.5s;
+    -o-animation: fadeInRight 1.2s both;
+    -o-animation-delay: 0.5s;
+    animation: fadeInRight 1.2s both;
+    animation-delay: 0.5s;
+}
+.proj2{
+    -webkit-animation: fadeInRight 1.2s both;
+    -webkit-animation-delay: 0.8s;
+    -moz-animation: fadeInRight 1.2s both;
+    -moz-animation-delay: 0.8s;
+    -o-animation: fadeInRight 1.2s both;
+    -o-animation-delay: 0.8s;
+    animation: fadeInRight 1.2s both;
+    animation-delay: 0.8s;
+}
+.proj3{
+    -webkit-animation: fadeInRight 1.2s both;
+    -webkit-animation-delay: 1s;
+    -moz-animation: fadeInRight 1.2s both;
+    -moz-animation-delay: 1s;
+    -o-animation: fadeInRight 1.2s both;
+    -o-animation-delay: 1s;
+    animation: fadeInRight 1.2s both;
+    animation-delay: 1s;
+}
+
+@-webkit-keyframes fadeInRight {
+    0%{
+        opacity:0;
+        -webkit-transform: translateX(50px);
+    }
+    100%{
+        opacity:1;
+        -webkit-transform: translateX(0);
+    }
+}
+@-moz-keyframes fadeInRight {
+    0%{
+        opacity:0;
+        -moz-transform: translateX(50px);
+    }
+    100%{
+        opacity:0;
+        -moz-transform: translateX(0);
+    }
+}
+@-o-keyframes fadeInRight {
+    0%{
+        opacity:0;
+        -o-transform: translateX(50px);
+    }
+    100%{
+        opacity:1;
+        -o-transform: translateX(0);
+    }
+}
+@keyframes fadeInRight {
+    0%{
+        opacity:0;
+        transform:translateX(50px);
+    }
+    100%{
+        opacity:1;
+        transform:translateX(0);
+    }
+}
+
 
 
 .contactInfo {
@@ -107,7 +183,7 @@
     display:flex;
     justify-content:flex-end;
     flex-direction:column;
-    margin-right: 10px;
+    margin-right: 1%;
     margin-block-start:0em;
     margin-block-end:0em;
 }
