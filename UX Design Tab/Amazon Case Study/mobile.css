@@ -213,7 +213,7 @@ h1 {
     color:white;
     background-color: rgba(255,255,255,0);
     font-family: 'Julius Sans One', sans-serif;
-    font-size: clamp(36px, 5vw,48px) !important;
+    font-size: clamp(28px, 5vw, 32px) !important;
     z-index:3;
 }
 
@@ -308,7 +308,7 @@ h3 {
     background-color:rgba(0,0,0,0);
     padding-top: 82px;
     padding-bottom: 69px;
-    font-size:clamp(20px, 5vw, 32px) !important;
+    font-size:clamp(24px, 5vw, 32px) !important;
     text-align: center;
     font-family: 'Julius Sans One', sans-serif;
 }
@@ -317,7 +317,7 @@ h5 {
     background-color:rgba(0,0,0,0);
     padding-top: 50px;
     margin-bottom: 18px;
-    font-size:clamp(22px, 5vw, 36px) !important;
+    font-size:clamp(16px, 5vw, 20px) !important;
     text-align: center;
     font-family: 'Julius Sans One', sans-serif;
 }
