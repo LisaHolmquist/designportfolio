@@ -263,7 +263,7 @@ p {
 p span {
     font-weight:400;
     background-color:rgba(0,0,0,0);
-    font-size:clamp(14px, 5vw, 16px);
+    font-size:clamp(14px, 5vw, 16px) !important;
 }
 .section {
     margin-top:27px;
@@ -325,7 +325,7 @@ h5 {
 h4 {
     color: white;
     background-color:rgba(0,0,0,0);
-    font-size:clamp(16px, 5vw, 20px) !important;
+    font-size:clamp(16px, 5vw, 32px) !important;
     font-family: 'Julius Sans One', sans-serif;
 }
 .text-column {
@@ -353,9 +353,6 @@ h4 {
 .protoButton {
     display: block;
     margin:auto;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     font-family: 'Inter', sans-serif;
     font-weight:200;
     font-size:clamp(12px, 5vw, 18px) !important;
