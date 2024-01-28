@@ -494,7 +494,7 @@ h4 {
 .imgTitle {
     color:#E98013;
     font-family: 'Julius Sans One', sans-serif;
-    font-size: 32px;
+    font-size: clamp(20px, 5vw, 32px) !important;
     text-align: center;
     display: block;
     margin:auto;
@@ -502,7 +502,7 @@ h4 {
 .threeProtos img {
     display: block;
     margin:auto;
-    height:200px;
+    height: clamp(200px, 5vh, 550px) !important;
     width:auto;
 }
 .twoProtos img {

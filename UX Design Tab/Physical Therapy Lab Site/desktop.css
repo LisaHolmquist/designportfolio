@@ -526,6 +526,8 @@ h4 {
 }
 .twoProtos img {
     display:block;
+    width:clamp(150px, 30vw, 400px);
+    height:auto;
     margin:auto;
 }
 .moreInfo img {
